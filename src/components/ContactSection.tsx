@@ -12,7 +12,7 @@ export default function ContactSection() {
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const text = `Hello, I am ${form.name}. Phone: ${form.phone}. Service: ${form.service}. ${form.message}`;
-    window.open(`https://wa.me/917892979134?text=${encodeURIComponent(text)}`, "_blank");
+    window.open(`https://wa.me/918660168328?text=${encodeURIComponent(text)}`, "_blank");
   };
 
   return (
@@ -32,8 +32,11 @@ export default function ContactSection() {
               </div>
               <div>
                 <h3 className="font-heading text-lg font-semibold text-foreground">Phone</h3>
-                <a href="tel:7892979134" className="text-muted-foreground transition-colors hover:text-gold">
-                  7892979134
+                <a href="tel:8660168328" className="text-muted-foreground transition-colors hover:text-gold">
+                  86601 68328
+                </a>
+                <a href="tel:8970033272" className="block text-muted-foreground transition-colors hover:text-gold">
+                  89700 33272
                 </a>
               </div>
             </div>
@@ -57,12 +60,17 @@ export default function ContactSection() {
               <div>
                 <h3 className="font-heading text-lg font-semibold text-foreground">Address</h3>
                 <p className="text-sm text-muted-foreground">
-                  #3, 2nd Cross, Muniyappa Layout,
+                  #3, 2nd cross, Kalyan Nagar,
                   <br />
-                  Kalyan Nagar Post,
-                  <br />
-                  Bengaluru, Karnataka – 560043
+                  Bengaluru - 560043
                 </p>
+                <div className="mt-4">
+                  <p className="text-sm font-semibold text-foreground">Branch offices</p>
+                  <p className="text-sm text-muted-foreground">Bengaluru</p>
+                  <p className="text-sm text-muted-foreground">Hyderabad</p>
+                  <p className="text-sm text-muted-foreground">Chennai</p>
+                  <p className="text-sm text-muted-foreground">Tirupathi</p>
+                </div>
               </div>
             </div>
           </div>
@@ -129,7 +137,7 @@ export default function ContactSection() {
               </div>
               <button
                 type="submit"
-                className="flex w-full items-center justify-center gap-2 rounded-lg bg-gold px-6 py-3 font-heading font-semibold text-gold-foreground shadow-md shadow-gold/20 transition-all duration-300 hover:brightness-110"
+                className="flex w-full items-center justify-center gap-2 rounded-lg bg-gold px-6 py-3 font-heading font-semibold text-gold-foreground shadow-md shadow-gold/20 transition-all duration-300 hover:shadow-lg hover:shadow-gold/30 active:scale-95"
               >
                 <Send className="h-5 w-5" />
                 Send via WhatsApp
