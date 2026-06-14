@@ -37,7 +37,7 @@ export default function Header() {
             <div className="leading-tight">
               <span className="font-heading text-lg font-bold tracking-wide text-gold md:text-xl">GLOBAL ELITE</span>
               <span className="block text-[10px] tracking-[0.2em] text-navy-foreground/70 md:text-xs">
-                Facility Services
+                FACILITY SERVICES PRIVATE LIMITED
               </span>
             </div>
           </NavLink>
