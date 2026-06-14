@@ -7,10 +7,12 @@ const features = [
   { icon: Sparkles, title: "Event Security", desc: "Complete event security management solutions" },
   { icon: CheckCircle, title: "Facility Management", desc: "End-to-end facility management services" },
   { icon: Sparkles, title: "Housekeeping & Cleaning", desc: "Professional housekeeping and deep cleaning" },
+  { icon: Users, title: "Labour Contract Services", desc: "Provision and management of contractual labour for varied needs." },
+  { icon: Users, title: "Skilled & Unskilled Manpower Services", desc: "Supply of trained skilled and unskilled personnel for diverse roles." },
 ];
 
 const badges = [
-  { icon: Scale, label: "100% Legally Compliant" },
+  { icon: Scale, label: "100% regulatory compliances maintained" },
   { icon: Award, label: "PSARA Licensed" },
   { icon: CheckCircle, label: "PF, ESI, PT Registered" },
   { icon: Clock, label: "24/7 Emergency Response" },
