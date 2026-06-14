@@ -44,7 +44,7 @@ export default function HeroSection() {
           Professional Security & Facility Services <span className="text-gold">Under One Roof</span>
         </h1>
         <p className="mt-6 max-w-2xl text-lg text-navy-foreground/80 animate-reveal-up delay-200 md:text-xl">
-          100% Legally Compliant • PSARA Licensed • 24/7 Emergency Response
+          100% regulatory compliances maintained • PSARA Licensed • 24/7 Emergency Response
         </p>
         <a
           href="#contact"
