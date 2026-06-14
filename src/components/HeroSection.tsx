@@ -44,11 +44,11 @@ export default function HeroSection() {
           Professional Security & Facility Services <span className="text-gold">Under One Roof</span>
         </h1>
         <p className="mt-6 max-w-2xl text-lg text-navy-foreground/80 animate-reveal-up delay-200 md:text-xl">
-          100% Legally Compliant • PSARA Licensed • 24/7 Emergency Response
+          100% regulatory compliances maintained • PSARA Licensed • 24/7 Emergency Response
         </p>
         <a
           href="#contact"
-          className="mt-8 inline-flex items-center rounded-lg bg-gold px-8 py-4 font-heading text-lg font-semibold text-gold-foreground shadow-lg shadow-gold/30 transition-all duration-300 hover:brightness-110 animate-reveal-up delay-400"
+          className="mt-8 inline-flex items-center rounded-lg bg-gold px-8 py-4 font-heading text-lg font-semibold text-gold-foreground shadow-lg shadow-gold/30 transition-all duration-300 hover:b[...]"
         >
           Contact Us
         </a>
