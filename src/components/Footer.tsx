@@ -95,9 +95,14 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-navy-foreground/70">
                 <Phone className="mt-0.5 h-4 w-4 shrink-0 text-gold" />
-                <a href="tel:7892979134" className="transition-colors hover:text-gold">
-                  7892979134
-                </a>
+                <div className="flex flex-col gap-1">
+                  <a href="tel:8660168328" className="transition-colors hover:text-gold">
+                    86601 68328
+                  </a>
+                  <a href="tel:8970033272" className="transition-colors hover:text-gold">
+                    89700 33272
+                  </a>
+                </div>
               </li>
               <li className="flex items-start gap-2 text-sm text-navy-foreground/70">
                 <Clock className="mt-0.5 h-4 w-4 shrink-0 text-gold" />
@@ -109,7 +114,14 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2 text-sm text-navy-foreground/70">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-gold" />
-                <span>#3, 2nd Cross, Muniyappa Layout, Kalyan Nagar Post, Bengaluru – 560043</span>
+                <div className="flex flex-col gap-1">
+                  <span>#3, 2nd cross, Kalyan Nagar, Bengaluru-560043</span>
+                  <div className="text-xs font-semibold mt-2">Branch offices</div>
+                  <span>Bengaluru</span>
+                  <span>Hyderabad</span>
+                  <span>Chennai</span>
+                  <span>Tirupathi</span>
+                </div>
               </li>
             </ul>
           </div>
