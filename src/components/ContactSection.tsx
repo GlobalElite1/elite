@@ -32,7 +32,10 @@ export default function ContactSection() {
               </div>
               <div>
                 <h3 className="font-heading text-lg font-semibold text-foreground">Phone</h3>
-                <a href="tel:8660168328" className="text-muted-foreground transition-colors hover:text-gold">
+                <a href="tel:7892979134" className="text-muted-foreground transition-colors hover:text-gold">
+                  78929 79134
+                </a>
+                <a href="tel:8660168328" className="block text-muted-foreground transition-colors hover:text-gold">
                   86601 68328
                 </a>
                 <a href="tel:8970033272" className="block text-muted-foreground transition-colors hover:text-gold">
